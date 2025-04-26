@@ -1,0 +1,14 @@
+{
+    "customManagers": [
+        {
+            "customType": "regex",
+            "datasourceTemplate": "docker",
+            "fileMatch": [
+                "flake\\.nix"
+            ],
+            "matchStrings": [
+                "name\\s*?=\\s*?\"(?<depName>.*?)\"\\s*?;\\s+?tag\\s*?=\\s*?\"(?<currentValue>.*?)\"\\s*?;"
+            ]
+        }
+    ]
+}
