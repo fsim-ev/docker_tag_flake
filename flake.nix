@@ -5,10 +5,10 @@
 
     outputs = { self, ... }: {
         image = {
-            # "some/docker" = {
-            #     name = "some/docker";
-            #     tag = "1.0.0";
-            # }
+            "zulip/docker-zulip" = {
+                name = "zulip/docker-zulip";
+                tag = "10.1-0";
+            };
         };
     };
 }
