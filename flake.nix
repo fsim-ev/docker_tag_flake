@@ -5,10 +5,10 @@
 
     outputs = { self, ... }: {
         image = {
-            # "some/docker" = {
-            #     name = "some/docker";
-            #     tag = "1.0.0";
-            # }
+            "passbolt/passbolt" = {
+                name = "passbolt/passbolt";
+                tag = "5.0.0-1-ce";
+            };
         };
     };
 }
