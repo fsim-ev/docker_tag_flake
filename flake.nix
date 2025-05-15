@@ -7,7 +7,7 @@
         image = {
             "passbolt/passbolt" = {
                 name = "passbolt/passbolt";
-                tag = "5.0.0-1-ce";
+                tag = "5.1.0-1-ce";
             };
         };
     };
