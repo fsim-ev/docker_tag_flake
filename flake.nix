@@ -7,7 +7,7 @@
         image = {
             "zulip/docker-zulip" = {
                 name = "zulip/docker-zulip";
-                tag = "10.4-0";
+                tag = "11.0-0";
             };
         };
     };
